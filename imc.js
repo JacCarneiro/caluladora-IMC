@@ -23,7 +23,7 @@ function imc(){
         tot = 'Obesidade grau 3(mórbida)'
     }
     res.innerHTML = `<strong>${nome}</strong> seu IMC é ${imc.toFixed(2)}, e você está <strong>${tot}</strong>`
-    
+    btn.addEventListener('click', imc)
+
     
 }
-btn.addEventListener('click', imc)
